@@ -45,7 +45,7 @@ header {
 
 
 .box_btn ul li a {
-    background-color: #394531;
+    background-color: #b5d198;
     min-width: 210px;
     height: 40px;
     display: inline-block;
@@ -56,12 +56,14 @@ header {
     font-size: 17px;
     color: #ffffff;
     padding: 10px 10px;
-}
-.box_btn ul li .active{
-    background-color: #b5d198;
     position: relative;
 }
-.box_btn ul li .active::after{
+.box_btn ul li .active{
+    
+    background-color: #394531;
+   
+}
+.box_btn ul li a::after{
     content: '';
     position: absolute;
     width: 100%;
