@@ -1,0 +1,269 @@
+.my-assets {
+    padding: 40px 50px;
+}
+
+.title-assets {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    display: flex;
+}
+
+.title-assets .h2 {}
+
+.title-assets span {
+    margin-left: auto;
+}
+
+.title-assets span img {
+    height: 24px;
+    margin-left: 20px;
+}
+
+.assets-content {
+    display: grid;
+    gap: 20px;
+    margin-top: 35px;
+}
+
+.assets-item {
+    padding: 25px 35px;
+    border-radius: 14px;
+    filter: drop-shadow(0px 4px 2.5px #000000);
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+
+}
+
+.assets-img {}
+
+.assets-img img {}
+
+.assets-tank {
+    margin-left: auto;
+}
+
+.assets-tank .h3 {
+    font-size: 33px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.tank-btn {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+.tank-btn a {
+    border-radius: 9px;
+    background-color: #b5d198;
+    font-size: 11px;
+    color: #384430;
+    padding: 5px 4px;
+
+}
+
+.assets-list {
+    display: flex;
+    text-align: center;
+    margin-left: auto;
+    gap: 50px;
+}
+
+.assets-list .h6 {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+}
+
+.assets-list .list-number {
+    font-size: 27px;
+    color: #ffffff;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.assets-list .list-number img {
+    height: 30px;
+}
+
+.sell-btn {
+    margin-left: auto;
+}
+
+.sell-btn a {
+    font-size: 17px;
+    color: #546048;
+    background: url(../img/s-btn.png) no-repeat center;
+    background-size: cover;
+    width: 179px;
+    height: 38px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    line-height: 0px;
+}
+
+.assets-pagination {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.assets-pagination li {}
+
+.pagination-btn {
+    background-color: #b5d198;
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    font-size: 35px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-number {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+    .assets-tank .h3 {
+        font-size: 25px; 
+    }
+    .assets-list { 
+        gap: 20px;
+    }
+    .assets-list .h6 {
+        font-size: 14px; 
+    }
+    .assets-list .list-number {
+        font-size: 20px; 
+        gap: 10px; 
+    }
+    .sell-btn a {
+        font-size: 17px; 
+        width: 139px;
+        height: 30px; 
+    }
+    .tank-btn a { 
+        font-size: 9px; 
+    }
+}
+
+@media (min-width: 320px) and (max-width: 991.98px) {
+    .assets-item { 
+        display: grid; 
+        justify-content: center;
+        text-align: center;
+        gap: 15px;
+    }
+    .assets-tank {
+        margin-left: unset;
+    }
+    .sell-btn {
+        margin: 0 auto;
+    }
+    .assets-list { 
+        gap: 25px;
+        margin: 15px 0;
+    }
+    .tank-btn a {
+        border-radius: 5px; 
+        font-size: 12px; 
+        padding: 13px 4px;
+    }
+    .assets-list .h6 {
+        font-size: 14px; 
+    }
+    .assets-list .list-number {
+        font-size: 20px; 
+        gap: 5px; 
+    }
+    .assets-list .list-number img {
+        height: 20px;
+    }
+    .title-assets {
+        font-size: 20px; 
+    }
+    .title-assets span img {
+        height: 14px;
+        margin-left: 11px;
+    }
+    
+    .my-assets {
+        padding: 30px 25px;
+    }
+    .assets-tank .h3 {
+        font-size: 26px; 
+    }
+    
+}
+
+
+@media (min-width: 320px) and (max-width: 440px) {
+    .assets-list .h6 {
+        font-size: 10px;
+    }
+    .assets-list {
+        gap: 10px; 
+    }
+    .assets-list .list-number {
+        font-size: 16px;
+        gap: 5px;
+    }
+    .assets-item {
+        padding: 25px; 
+    }
+    .assets-item { 
+        gap: 7px;
+    }
+    .title-assets {
+        font-size: 13px;
+    }
+    .title-assets span img {
+        height: 11px; 
+    }
+    
+    .box_btn ul li a {
+        min-width: 90px;
+        height: 27px;
+        font-size: 9px;
+        padding: 6px 14px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 370px) {
+    .assets-item {
+        padding: 25px 15px;
+    }
+    .assets-list .list-number {
+        font-size: 13px; 
+    }
+    .assets-list .h6 {
+        font-size: 8px;
+    }
+    .tank-btn a { 
+        font-size: 11px;
+        padding: 10px 4px;
+    }
+    .page-number {
+        font-size: 13px; 
+    }
+    .assets-pagination { 
+        gap: 22px; 
+    }
+}
